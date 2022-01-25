@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Karla-wght;
+    src: url('../fonts/Karla-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Karla-Italic;
+    src: url('../fonts/Karla-Italic-VariableFont_wght.ttf');
+}
+
+
+
+
+body {
+    background-image: linear-gradient(to left, rgb(146, 183, 196),rgb(151, 173, 173));
+    background-image: -o-linear-gradient(to left,rgb(146, 183, 196),rgb(151, 173, 173));
+    background-image: -moz-linear-gradient(to left,rgb(146, 183, 196),rgb(151, 173, 173));
+    background-image: -webkit-linear-gradient(to left,rgb(146, 183, 196),rgb(151, 173, 173));
+}
+
+button {
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 100%;
+    height: 50px;
+    font-family: Karla-wght;
+    font-size: 20px;
+    color: hsl(204, 43%, 93%);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 380px 380px;
+    grid-template-rows: 240px 240px;
+    grid-area: "header header"
+                "main aside" ;
+    justify-content: center;
+    align-content: center;
+    font-family: Karla-wght;
+    margin: auto;
+    
+    
+}
+
+header {
+    height: 250px ;
+    width: 730px;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    border-radius: 10px 10px 0 0 ;
+    background-color: hsl(204, 43%, 93%);
+}
+
+main {
+    height: 250px;
+    border-radius: 0 0 0 10px;
+    background-color: hsl(179, 62%, 43%);
+}
+
+aside {
+    height: 250px;
+    width: 300px;
+    border-radius: 0 0 10px 0;
+    background-color: hsl(179, 46%, 50%);
+    padding: 0 0 0 50px ;
+}
+
+.grid-signature-title {
+    font-size: 35px;
+    color: hsl(179, 62%, 43%);
+    margin: 50px 0 20px 60px;
+    font-family: Karla-wght;
+}
+
+.grid-signature-subtitle {
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+    margin: 0 0 25px 60px;
+    font-family: Karla-wght;
+}
+
+.grid-signature-description {
+    font-size: 16px;
+    color: hsl(206, 3%, 48%);
+    margin: 5px 0 10px 60px;
+    font-family: Karla-wght;
+}
+
+.grid-price-title {
+    color: hsl(204, 43%, 93%);
+    font-size: 19px;
+    margin: 30px 0 10px 60px;
+    font-family: Karla-wght;
+}
+
+.price {
+    font-size: 50px;
+    color: hsl(204, 43%, 93%);
+    margin: 0px 5px 5px 60px;
+    font-family: Karla-wght;
+}
+
+.price-desc {
+    color: hsl(204, 43%, 93%);
+    font-family: Karla-wght;
+}
+
+.price-subs {
+    color: hsl(204, 43%, 93%);
+    font-family: Karla-wght;
+    font-size: 16px;
+    margin: 10px 40px 0px 60px;
+}
+.container-btn{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;   
+    margin: 15px 0 0px 60px;
+    width: 60%;
+    height: 50px;
+    border-radius: 7px;
+    background: hsl(71, 73%, 54%);
+    padding: 0 25px;
+    justify-content: center;
+    align-content: center;
+}
+.container-btn:hover {
+    background: #333333;
+}
+
+.description-title {
+    color: hsl(204, 43%, 93%);
+    font-family: Karla-wght;
+    font-size: 19px;
+    margin: 30px 0 20px 0px;
+}
+
+.description-descr {
+    color: hsl(204, 43%, 93%);
+    font-family: Karla-wght;
+    font-size: 16px;
+    margin: 0 0px 0 0px;
+}
+
+.link-sub {
+    color: hsl(204, 43%, 93%);
+    text-decoration: none;
+    font-family: Karla-wght;
+    font-weight: bold;
+    
+}
